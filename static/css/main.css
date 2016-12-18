@@ -1,5 +1,5 @@
 main {
-    max-width: 750px;
+    max-width: 1200px;
     word-wrap: break-word;
 }
 
@@ -133,6 +133,7 @@ a.btn-back {
 .article-list h2 a {
     text-decoration: none;
     transition: color 0.1s linear;
+    font-size: 30px;
 }
 
 .post-meta {
@@ -173,9 +174,9 @@ a.btn-back {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.author-name {
+h1.author-name.text-primary {
     margin: 0 0 5px 0;
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .author-bio {
@@ -281,9 +282,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Source Sans Pro", "Kozuka Gothic Pr6N", Meiryo, sans-serif !important;
 }
 
+h1.text-primary {
+    font-size: 30px;
+}
+
 article section img {
     max-width: 100%;
     height: auto;
     margin: 13px auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
 
